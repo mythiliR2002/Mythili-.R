@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Management System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .options {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .option {
+      margin: 0 10px;
+      padding: 10px 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .option:hover {
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Library Management System</h1>
+  <div class="options">
+    <div class="option" onclick="window.location.href='book.html'">Book Collection</div>
+    <div class="option" onclick="window.location.href='transaction.html'">Transaction Details</div>
+    <div class="option" onclick="window.location.href='members.html'">Library Members</div>
+  </div>
+</body>
+</html>

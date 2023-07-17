@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rent a Book</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    label {
+      margin-bottom: 10px;
+    }
+
+    input {
+      padding: 5px;
+      margin-bottom: 10px;
+      width: 250px;
+    }
+
+    input[type="submit"] {
+      width: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Rent a Book</h1>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="mobile">Mobile Number:</label>
+    <input type="text" id="mobile" name="mobile" required>
+
+    <label for="book">Book Name:</label>
+    <input type="text" id="book" name="book" required>
+
+    <label for="rentDate">Renting Date:</label>
+    <input type="date" id="rentDate" name="rentDate" required>
+
+    <label for="returnDate">Due to Return Date:</label>
+    <input type="date" id="returnDate" name="returnDate" required>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</body>
+</html>
